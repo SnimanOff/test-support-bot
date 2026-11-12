@@ -1,0 +1,6 @@
+/.env
+/data/
+/dist/
+/.test-tmp/
+/telegram-support
+/telegram-support.exe

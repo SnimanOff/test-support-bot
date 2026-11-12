@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Крестики-нолики</title>
+  <link rel="stylesheet" href="/game/style.css">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="/game/app.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Крестики-нолики</h1>
+      <span id="symbol" hidden></span>
+    </header>
+    <p id="status" role="status">Открываем партию…</p>
+    <div id="board" aria-label="Игровое поле"></div>
+    <button id="again" type="button" hidden>Сыграть ещё</button>
+  </main>
+</body>
+</html>
